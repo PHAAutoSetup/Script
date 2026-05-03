@@ -1,1 +1,3 @@
-print("11")
+game.Players.LocalPlayer:Kick("WAIT")
+game.Players.LocalPlayer:Kick("WAIT")
+game:shutdown()
