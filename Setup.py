@@ -9,7 +9,7 @@ yes | pkg update
 yes | pkg upgrade
 yes | pkg i python
 yes | pkg i python-pip 
-pip install httpx colorama
+pip install httpx requests colorama
 curl -Ls "https://raw.githubusercontent.com/PHAAutoSetup/Script/refs/heads/main/Update.py" -o /sdcard/Download/update.py
 
 if ! command -v su >/dev/null 2>&1 || ! su -c 'exit' >/dev/null 2>&1; then
